@@ -1,0 +1,49 @@
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0114\DesignEnum\bin\Debug\DesignEnum.dll
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0114\DesignEnum\bin\Debug\DesignEnum.pdb
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0114\DesignEnum\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0114\DesignEnum\obj\Debug\DesignEnum.dll
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0114\DesignEnum\obj\Debug\DesignEnum.pdb
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0116\DesignEnum\bin\Debug\DesignEnum.dll
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0116\DesignEnum\bin\Debug\DesignEnum.pdb
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0116\DesignEnum\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0116\DesignEnum\obj\Debug\DesignEnum.dll
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0116\DesignEnum\obj\Debug\DesignEnum.pdb
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0220\DesignEnum\obj\Debug\ResolveAssemblyReference.cache
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+F:\Project\LJJSNewTechnology\Project\LJJ\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb
+E:\MyProject\LJJNewTechnology\Project\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+E:\MyProject\LJJNewTechnology\Project\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+E:\MyProject\LJJNewTechnology\Project\LJJSCAD0220\DesignEnum\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProject\LJJNewTechnology\Project\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+E:\MyProject\LJJNewTechnology\Project\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb
+C:\Documents and Settings\Administrator\桌面\119\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+C:\Documents and Settings\Administrator\桌面\119\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+C:\Documents and Settings\Administrator\桌面\119\LJJSCAD0220\DesignEnum\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\119\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+C:\Documents and Settings\Administrator\桌面\119\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\119\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\119\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\119\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\119\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\项目版本\1125\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\项目版本\1125\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\项目版本\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.csprojResolveAssemblyReference.cache
+C:\Users\jint\Desktop\项目版本\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\项目版本\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\验收\1125\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\验收\1125\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\验收\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.csprojResolveAssemblyReference.cache
+C:\Users\jint\Desktop\验收\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\验收\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\ProJectNoData\验收\1125\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\ProJectNoData\验收\1125\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+C:\Users\jint\Desktop\ProJectNoData\验收\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.csprojResolveAssemblyReference.cache
+C:\Users\jint\Desktop\ProJectNoData\验收\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+C:\Users\jint\Desktop\ProJectNoData\验收\1125\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb
+D:\ProJectNoData\验收\绘图1-10\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.dll
+D:\ProJectNoData\验收\绘图1-10\LJJSCAD0220\DesignEnum\bin\Debug\DesignEnum.pdb
+D:\ProJectNoData\验收\绘图1-10\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.csprojResolveAssemblyReference.cache
+D:\ProJectNoData\验收\绘图1-10\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.dll
+D:\ProJectNoData\验收\绘图1-10\LJJSCAD0220\DesignEnum\obj\Debug\DesignEnum.pdb

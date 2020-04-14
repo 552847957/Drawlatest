@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="vdfCAD">
+</Property><Property Name="解决方案文件" Value="F:\Projects\LJJSCAD\vdfCAD.sln">
+</Property><Property Name="Date" Value="2013年4月4日星期四">
+</Property><Property Name="Time" Value="20:08:45">
+</Property></Properties><Event ErrorLevel="0" Project="vdfCAD" Source="vdfCAD.csproj" Description="项目文件已成功备份为 F:\Projects\LJJSCAD\Backup\vdfCAD.csproj">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Childform.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Childform.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Childform.Designer.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Childform.Designer.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="MainForm.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\MainForm.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="MainForm.Designer.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\MainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Program.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Properties\Resources.Designer.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Properties\Settings.Designer.cs" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Properties\Settings.settings" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="mdicad.ico" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\mdicad.ico">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Childform.resx" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Childform.resx">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="MainForm.resx" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\MainForm.resx">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Properties\licenses.licx" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Properties\licenses.licx">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="Properties\Resources.resx" Description="文件已成功备份为 F:\Projects\LJJSCAD\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="vdfCAD" Source="vdfCAD.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="vdfCAD.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="vdfCAD" Source="vdfCAD.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="vdfCAD" Source="vdfCAD.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

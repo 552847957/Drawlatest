@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E0C5D8ED-0F7A-4BAB-9180-701CFEAF355C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LJJSCAD</RootNamespace>
+    <AssemblyName>LJJSCAD</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <ApplicationIcon>mdicad.ico</ApplicationIcon>
+    <Win32Resource>
+    </Win32Resource>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>http://localhost/LJJSCAD/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="vdCommandLine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="vdFramedControl, Version=8.8002.1.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53, processorArchitecture=MSIL">
+      <HintPath>..\..\vdFramedControl.dll</HintPath>
+    </Reference>
+    <Reference Include="vdPropertyGrid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VDrawBaseControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VdrawPro5, Version=6.1.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="vdScrollableControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Actions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Generics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Geometry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Professional, Version=6.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Render, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Serialize, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WinMsgMannager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseLineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseLineForm.Designer.cs">
+      <DependentUpon>BaseLineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BiLiChiChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BiLiChiChangeForm.Designer.cs">
+      <DependentUpon>BiLiChiChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlackBoard\DataControl.cs" />
+    <Compile Include="BlackBoard\DBItemDesign\Common.cs" />
+    <Compile Include="BlackBoard\DBItemDesign\HatchStyleDbValue.cs" />
+    <Compile Include="BlackBoard\DrawingHeaderTable\HeaderTableDataManage.cs" />
+    <Compile Include="BlackBoard\IDPreManage.cs" />
+    <Compile Include="BlackBoard\InitData\Factory\DesignInitBuilderFactory.cs" />
+    <Compile Include="BlackBoard\InitData\Impl\DesignInitDirector.cs" />
+    <Compile Include="BlackBoard\InitData\Impl\DataBaseDesignInitBuilder.cs" />
+    <Compile Include="BlackBoard\InitData\Impl\TextDesignInitBuilder.cs" />
+    <Compile Include="BlackBoard\InitData\Interface\DesignInitBuilder.cs" />
+    <Compile Include="BlackBoard\Legend\LegendManage.cs" />
+    <Compile Include="BlackBoard\LineRoadDesign.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\DataBaseProvider\LineRoadDefaultDesignDataGet.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\ColorCodeDic.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\CurveHasHatchDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\CurveItemDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\DrawItemNamesManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\DrawItemNamesOper.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\FillSymbolCode.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\FrameDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\HatchRectDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\HCGZItemDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\ImageItemDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\KeDuChiDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\MultiHatchCurveDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\NormalPuTuDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\SymbolItemDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Impl\TextItemDesignManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Interface\DesignDataManage.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Factory\DrawItemFactory.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\Interface\ILineRoadDesignDataGet.cs" />
+    <Compile Include="BlackBoard\LJJSDesignData\ModelManage\LineRoadModelManage.cs" />
+    <Compile Include="BlackBoard\PropertiesManage\ImageFormStyle.cs" />
+    <Compile Include="BlackBoard\PropertiesManage\ImeItemAdditionProperties.cs" />
+    <Compile Include="BlackBoard\TextFontManage.cs" />
+    <Compile Include="Childform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Childform.Designer.cs">
+      <DependentUpon>Childform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommonData\CommonEnum.cs" />
+    <Compile Include="CommonData\DBConfigure.cs" />
+    <Compile Include="BlackBoard\DrawCommonData.cs" />
+    <Compile Include="CommonData\MyTableManage.cs" />
+    <Compile Include="DAL\ColorCodeDAL.cs" />
+    <Compile Include="DAL\CurveItemDAL.cs" />
+    <Compile Include="DAL\FrameModelDAL.cs" />
+    <Compile Include="DAL\HeaderTableDAL.cs" />
+    <Compile Include="DAL\ItemDAL.cs" />
+    <Compile Include="DAL\KeDuChiDAL.cs" />
+    <Compile Include="DAL\LineRoadDesignDAL.cs" />
+    <Compile Include="DAL\SelectWellDAL.cs" />
+    <Compile Include="DAL\SymbolCodeDAL.cs" />
+    <Compile Include="DAL\SymbolItemDAL.cs" />
+    <Compile Include="DAL\TestOracleDAL.cs" />
+    <Compile Include="DAL\TextItemDAL.cs" />
+    <Compile Include="BlackBoard\FrameControlData.cs" />
+    <Compile Include="BlackBoard\FrameDesign.cs" />
+    <Compile Include="DesignEnumManage\ComboDSFactory.cs" />
+    <Compile Include="DrawingElement\CommonStruc.cs" />
+    <Compile Include="DrawingElement\LegendDesign.cs" />
+    <Compile Include="DrawingElement\LJJSPoint.cs" />
+    <Compile Include="DrawingElement\OperStruc.cs" />
+    <Compile Include="DrawingOper\AddItemTitle.cs" />
+    <Compile Include="DrawingOper\BiLiChiOper.cs" />
+    <Compile Include="DrawingOper\ChaoJieBiaoZhu.cs" />
+    <Compile Include="DrawingOper\ImageItemBuilderOper.cs" />
+    <Compile Include="DrawingOper\ItemDesignOper.cs" />
+    <Compile Include="DrawingOper\ItemOper.cs" />
+    <Compile Include="DrawingOper\JDOper.cs" />
+    <Compile Include="DrawingOper\KeDuChiManage.cs" />
+    <Compile Include="DrawingOper\LegendOper.cs" />
+    <Compile Include="DrawingOper\LineRoadOper.cs" />
+    <Compile Include="DrawingOper\LineRoadSurfaceManage\JSLineRoadSurfaceBuild.cs" />
+    <Compile Include="DrawingOper\LineRoadSurfaceManage\LineRoadSurfaceBuild.cs" />
+    <Compile Include="DrawingOper\LineRoadSurfaceManage\LineRoadSurfaceBuildFactory.cs" />
+    <Compile Include="DrawingOper\LineRoadSurfaceManage\StandardLineRoadSurfaceBuild.cs" />
+    <Compile Include="DrawingOper\SymbolItemBuilderOper.cs" />
+    <Compile Include="DrawingOper\TextItemOper.cs" />
+    <Compile Include="Drawing\Figure\Arrow.cs" />
+    <Compile Include="Drawing\Figure\Line.cs" />
+    <Compile Include="Drawing\Figure\PolyLine.cs" />
+    <Compile Include="Drawing\Figure\Rect.cs" />
+    <Compile Include="Drawing\Hatch\AreaHatch.cs" />
+    <Compile Include="Drawing\Hatch\ImageHatch.cs" />
+    <Compile Include="Drawing\Hatch\LJJSHatch.cs" />
+    <Compile Include="Drawing\Hatch\MyHatch.cs" />
+    <Compile Include="Drawing\Manage\Entities.cs" />
+    <Compile Include="Drawing\Manage\Layer.cs" />
+    <Compile Include="Drawing\Symbol\SymbolAdd.cs" />
+    <Compile Include="Drawing\Text\MText.cs" />
+    <Compile Include="Drawing\Text\Text.cs" />
+    <Compile Include="HeaderTableWorkData\HTDataProviderFactory.cs" />
+    <Compile Include="HeaderTableWorkData\HTSqlServerProvider.cs" />
+    <Compile Include="HeaderTableWorkData\HTTxtWorkDataProvider.cs" />
+    <Compile Include="HeaderTableWorkData\IHTWorkDataProvider.cs" />
+    <Compile Include="ItemStyleOper\DrawItemNameRead.cs" />
+    <Compile Include="ItemStyleOper\AllItemBuilder.cs" />
+    <Compile Include="ItemStyleOper\ItemFromTableRead.cs" />
+    <Compile Include="ItemStyleOper\ItemStyleOperFrame.cs" />
+    <Compile Include="ItemStyleOper\ItemStyleOperFrameHasReturn.cs" />
+    <Compile Include="ItemStyleOper\ItemWorkDataTableRead.cs" />
+    <Compile Include="LJJSDrawing\Factory\AddPerJDTextItemFactory.cs" />
+    <Compile Include="LJJSDrawing\Factory\DrawItemDirectorFactory.cs" />
+    <Compile Include="LJJSDrawing\Factory\LineRoadFactory.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\AddLineHatchManager.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\AddNormalTextItemToFigure.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\AddNumberTextItemToFigure.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\AddYSTextItemToFigure.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\CurveHasHatchItem\CurveHasHatchDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\CurveHasHatchItem\StandardCurveHasHatchBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\CurveItemDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\GetJiaoDIan.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\HatchRectItem\HatchRectDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\HatchRectItem\HatchRectDrawStrut.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\HatchRectItem\StandardHatchRectBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\ImageItemDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\ItemBuildExec\CurveHatch.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\ItemBuildExec\KDCBuildExec.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\MsehAndMsevContainer.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\MultiHatchCurveItemBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\MultiHatchCurveItemDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\NormalPuTuItem\NormalPuTuDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\NormalPuTuItem\StandardNormalPuTuBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\pTableContainer.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\StandardCurveItemBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\StandardImageItemBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\StandardSymbolItemBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\StandardTextItemBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\SymbolItemDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\SymbolItem\CurveColorEnum.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\SymbolItem\CurveColorManager.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\SymbolItem\GetPtable.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\SymbolItem\JBQXItemDraw.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\SymbolItem\YXPouMianItemDraw.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\TextItemDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\TuTouTableBuild.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawPointContainer.cs" />
+    <Compile Include="LJJSDrawing\Impl\FrameDrawImpl.cs" />
+    <Compile Include="LJJSDrawing\Impl\HCGZItemDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\Legend\AddLegendArea.cs" />
+    <Compile Include="LJJSDrawing\Impl\Legend\LegendDrawing.cs" />
+    <Compile Include="LJJSDrawing\Impl\LineRoad\JingShenLineRoadBuilderImpl.cs" />
+    <Compile Include="LJJSDrawing\Impl\LineRoad\LineRoadBuildDirector.cs" />
+    <Compile Include="LJJSDrawing\Impl\DrawItem\StandardHCGZItemBuilder.cs" />
+    <Compile Include="LJJSDrawing\Impl\SQLStr\SQLBuilder.cs" />
+    <Compile Include="LJJSDrawing\Interface\DrawItemInterface\DrawItemBuildDirector.cs" />
+    <Compile Include="LJJSDrawing\Interface\DrawItemInterface\DrawItemBuilder.cs" />
+    <Compile Include="LJJSDrawing\Interface\DrawItemInterface\IAddTextItem.cs" />
+    <Compile Include="LJJSDrawing\Interface\DrawItemInterface\ICurveItem.cs" />
+    <Compile Include="LJJSDrawing\Interface\DrawItemInterface\ISymbolItem.cs" />
+    <Compile Include="Model\ColorAndLevel.cs" />
+    <Compile Include="Model\ColorEnum.cs" />
+    <Compile Include="Model\CurveHasHatchItemModel.cs" />
+    <Compile Include="Model\Drawing\CurveHasHatchDesignClass.cs" />
+    <Compile Include="Model\Drawing\CurveItemTitleClass.cs" />
+    <Compile Include="Model\Drawing\HatchRectDesignClass.cs" />
+    <Compile Include="Model\Drawing\ItemDesignClass.cs" />
+    <Compile Include="Model\Drawing\MultiHatchCurveDesignClass.cs" />
+    <Compile Include="Model\Drawing\NormalPuTuDesignClass.cs" />
+    <Compile Include="Model\MultiHatchCurveItemModel.cs" />
+    <Compile Include="Model\DrawingKeDu.cs" />
+    <Compile Include="Model\Drawing\CurveItemDesignClass.cs" />
+    <Compile Include="Model\Drawing\HCGZItemDesignClass.cs" />
+    <Compile Include="Model\Drawing\ImageItemDesignClass.cs" />
+    <Compile Include="Model\Drawing\JingShenDesignClass.cs" />
+    <Compile Include="Model\Drawing\SymbolItemClass.cs" />
+    <Compile Include="Model\Drawing\TextItem.cs" />
+    <Compile Include="Model\Drawing\TuTouTableModel.cs" />
+    <Compile Include="Model\HCGZItemModel.cs" />
+    <Compile Include="Model\ImageItemModel.cs" />
+    <Compile Include="Model\JingShenModel.cs" />
+    <Compile Include="Model\LineRoadDrawingModel.cs" />
+    <Compile Include="LJJSDrawing\Impl\LineRoad\LineRoadBuilderImpl.cs" />
+    <Compile Include="LJJSDrawing\Impl\LJJSBuilderImpl.cs" />
+    <Compile Include="LJJSDrawing\Impl\LJJSDirector.cs" />
+    <Compile Include="LJJSDrawing\Interface\IFrameDraw.cs" />
+    <Compile Include="LJJSDrawing\Interface\LineRoadInterface\LineRoadBuilder.cs" />
+    <Compile Include="LJJSDrawing\Interface\LJJSBuilder.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CurveItemModel.cs" />
+    <Compile Include="Model\FrameModel.cs" />
+    <Compile Include="Model\LineRoadEnvironment.cs" />
+    <Compile Include="Model\Drawing\LineRoadDesignClass.cs" />
+    <Compile Include="Model\LineRoadModel.cs" />
+    <Compile Include="Model\LJJSEntities.cs" />
+    <Compile Include="Model\HatchRectItemModel.cs" />
+    <Compile Include="Model\NormalPuTuItemModel.cs" />
+    <Compile Include="Model\SymbolItemModel.cs" />
+    <Compile Include="Model\TextItemModel.cs" />
+    <Compile Include="pTableMaxAndMinValueManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pTableMaxAndMinValueManagementForm.Designer.cs">
+      <DependentUpon>pTableMaxAndMinValueManagementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="tesFORMMOBAN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tesFORMMOBAN.Designer.cs">
+      <DependentUpon>tesFORMMOBAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\DeepCopyUtil.cs" />
+    <Compile Include="Util\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SheDingMoBanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SheDingMoBanForm.Designer.cs">
+      <DependentUpon>SheDingMoBanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SuiZuanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuiZuanForm.Designer.cs">
+      <DependentUpon>SuiZuanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\ColorSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\ColorSelectionForm.Designer.cs">
+      <DependentUpon>ColorSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FrameDesginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrameDesginForm.Designer.cs">
+      <DependentUpon>FrameDesginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\HyperTxtLinkFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\HyperTxtLinkFrm.Designer.cs">
+      <DependentUpon>HyperTxtLinkFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\OracTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\OracTestForm.Designer.cs">
+      <DependentUpon>OracTestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectLineRoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SelectLineRoad.Designer.cs">
+      <DependentUpon>SelectLineRoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\TuTouTableOper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TuTouTableOper.Designer.cs">
+      <DependentUpon>TuTouTableOper.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\YGXWPictureFrm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\YGXWPictureFrm.Designer.cs">
+      <DependentUpon>YGXWPictureFrm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\YXYGPictureForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\YXYGPictureForm.Designer.cs">
+      <DependentUpon>YXYGPictureForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="URLManage\ConfigSectionData.cs" />
+    <Compile Include="URLManage\GetURLConfig.cs" />
+    <Compile Include="Util\ColorUtil.cs" />
+    <Compile Include="Util\ComboUtil.cs" />
+    <Compile Include="UI\DrawItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\DrawItem.Designer.cs">
+      <DependentUpon>DrawItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LegendDesign.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LegendDesign.Designer.cs">
+      <DependentUpon>LegendDesign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\LineRoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\LineRoad.Designer.cs">
+      <DependentUpon>LineRoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\SelectWell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SelectWell.Designer.cs">
+      <DependentUpon>SelectWell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Util\BiaoZhuLineUtil.cs" />
+    <Compile Include="Util\BoolUtil.cs" />
+    <Compile Include="Util\CommonControlOper.cs" />
+    <Compile Include="Util\CurveItemUtil.cs" />
+    <Compile Include="Util\DialogUtil.cs" />
+    <Compile Include="Util\DuiShuOper.cs" />
+    <Compile Include="Util\FigureStrucConvert.cs" />
+    <Compile Include="Util\HashUtil.cs" />
+    <Compile Include="Util\IndexNums.cs" />
+    <Compile Include="Util\ItemStyleUtil.cs" />
+    <Compile Include="Util\ListBoxUtil.cs" />
+    <Compile Include="Util\ModeUtil.cs" />
+    <Compile Include="Util\PointUtil.cs" />
+    <Compile Include="Util\StrUtil.cs" />
+    <Compile Include="Util\VDAttributeHelper.cs" />
+    <Compile Include="Util\VectorDrawHatchHelper.cs" />
+    <Compile Include="Util\VectorDrawHelper.cs" />
+    <Compile Include="Util\ZuoBiaoOper.cs" />
+    <Compile Include="WorkDataManage\Impl\SQLServerWorkDataProvider.cs" />
+    <Compile Include="WorkDataManage\Interface\IWorkDataProvider.cs" />
+    <Compile Include="WorkDataManage\WordDataManage.cs" />
+    <Compile Include="WorkDataManage\WorkDataProviderFactory.cs" />
+    <EmbeddedResource Include="BaseLineForm.resx">
+      <DependentUpon>BaseLineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BiLiChiChangeForm.resx">
+      <DependentUpon>BiLiChiChangeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Childform.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Childform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="pTableMaxAndMinValueManagementForm.resx">
+      <DependentUpon>pTableMaxAndMinValueManagementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SheDingMoBanForm.resx">
+      <DependentUpon>SheDingMoBanForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SuiZuanForm.resx">
+      <DependentUpon>SuiZuanForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tesFORMMOBAN.resx">
+      <DependentUpon>tesFORMMOBAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\ColorSelectionForm.resx">
+      <DependentUpon>ColorSelectionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\DrawItem.resx">
+      <DependentUpon>DrawItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrameDesginForm.resx">
+      <DependentUpon>FrameDesginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\HyperTxtLinkFrm.resx">
+      <DependentUpon>HyperTxtLinkFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LegendDesign.resx">
+      <DependentUpon>LegendDesign.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\LineRoad.resx">
+      <DependentUpon>LineRoad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\OracTestForm.resx">
+      <DependentUpon>OracTestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectLineRoad.resx">
+      <DependentUpon>SelectLineRoad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SelectWell.resx">
+      <DependentUpon>SelectWell.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TuTouTableOper.resx">
+      <DependentUpon>TuTouTableOper.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\YGXWPictureFrm.resx">
+      <DependentUpon>YGXWPictureFrm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\YXYGPictureForm.resx">
+      <DependentUpon>YXYGPictureForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon-20191017081234444.ico" />
+    <Content Include="mdicad.ico" />
+    <Content Include="readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DBHelper\DBHelper.csproj">
+      <Project>{3C8929AC-AD5B-4056-9E32-6A6B54B8E80C}</Project>
+      <Name>DBHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="DesignEnum\DesignEnum.csproj">
+      <Project>{9B0193DA-A67C-4A28-AF68-CAE7BDEB1F89}</Project>
+      <Name>DesignEnum</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="packages\EmptyLicensesLicx.1.1.0\build\EmptyLicensesLicx.targets" Condition="Exists('packages\EmptyLicensesLicx.1.1.0\build\EmptyLicensesLicx.targets')" />
+</Project>

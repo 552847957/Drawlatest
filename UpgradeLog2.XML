@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="LJJSCAD">
+</Property><Property Name="解决方案文件" Value="F:\Projects\LJJ\LJJSCAD\LJJSCAD.sln">
+</Property><Property Name="Date" Value="2013年7月7日星期日">
+</Property><Property Name="Time" Value="05:54:09">
+</Property><Property Name="日志号" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingModelDBStruc.csproj" Description="项目文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\DrawingModelDBStruc.csproj">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DataPreDealDesignSturc.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\DataPreDealDesignSturc.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingKedu.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\DrawingKedu.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingLineDBStruc.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\DrawingLineDBStruc.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingModelDBStruc.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\DrawingModelDBStruc.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingSymbol.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\DrawingSymbol.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingTxt.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\DrawingTxt.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\Properties\AssemblyInfo.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\SymbolCode.cs" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\SymbolCode.cs">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\ClassDiagram1.cd" Description="文件已成功备份为 F:\Projects\LJJ\LJJSCAD\Backup1\ClassDiagram1.cd">
+</Event><Event ErrorLevel="1" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingModelDBStruc.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingModelDBStruc.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingModelDBStruc.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="DrawingModelDBStruc" Source="..\DrawingModelDBStruc\DrawingModelDBStruc.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

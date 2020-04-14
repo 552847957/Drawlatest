@@ -1,0 +1,146 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E0C5D8ED-0F7A-4BAB-9180-701CFEAF355C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimpleMdiCAD</RootNamespace>
+    <AssemblyName>SimpleMdiCAD</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ApplicationIcon>mdicad.ico</ApplicationIcon>
+    <Win32Resource>
+    </Win32Resource>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="vdCommandLine, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="vdPropertyGrid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VDrawBaseControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VdrawPro5, Version=6.1.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="vdScrollableControl, Version=6.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Actions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Generics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Geometry, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Professional, Version=6.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Render, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="VectorDraw.Serialize, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="WinMsgMannager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=54eac14e23c9ee53">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Childform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Childform.Designer.cs">
+      <DependentUpon>Childform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Childform.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Childform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mdicad.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

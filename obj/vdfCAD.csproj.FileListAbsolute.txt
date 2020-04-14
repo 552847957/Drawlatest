@@ -1,0 +1,10 @@
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\bin\Debug\SimpleMdiCAD.exe
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\bin\Debug\SimpleMdiCAD.pdb
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\SimpleMdiCAD.Childform.resources
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\SimpleMdiCAD.MainForm.resources
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\SimpleMdiCAD.Properties.Resources.resources
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\vdfCAD.csproj.GenerateResource.Cache
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\SimpleMdiCAD.exe.licenses
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\SimpleMdiCAD.exe
+F:\Projects\录井公司技术梳理\VectorDraw\VectorDrawSamples\VectorDraw_Samples\VDF\VDF_Samples\MDICAD\obj\Debug\SimpleMdiCAD.pdb

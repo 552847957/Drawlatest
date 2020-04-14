@@ -1,0 +1,12 @@
+F:\Projects\LJJSCAD\obj\Debug\ResolveAssemblyReference.cache
+F:\Projects\LJJSCAD\obj\Debug\SimpleMdiCAD.Childform.resources
+F:\Projects\LJJSCAD\obj\Debug\SimpleMdiCAD.MainForm.resources
+F:\Projects\LJJSCAD\obj\Debug\SimpleMdiCAD.Properties.Resources.resources
+F:\Projects\LJJSCAD\obj\Debug\GenerateResource-ResGen.read.4.tlog
+F:\Projects\LJJSCAD\obj\Debug\GenerateResource-ResGen.read.1.tlog
+F:\Projects\LJJSCAD\obj\Debug\GenerateResource-ResGen.write.1.tlog
+F:\Projects\LJJSCAD\obj\Debug\SimpleMdiCAD.exe.licenses
+F:\Projects\LJJSCAD\bin\Debug\SimpleMdiCAD.exe
+F:\Projects\LJJSCAD\bin\Debug\SimpleMdiCAD.pdb
+F:\Projects\LJJSCAD\obj\Debug\SimpleMdiCAD.exe
+F:\Projects\LJJSCAD\obj\Debug\SimpleMdiCAD.pdb
